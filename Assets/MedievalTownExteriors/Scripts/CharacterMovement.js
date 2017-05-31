@@ -17,8 +17,15 @@ var start_x : float = 0;
 var start_y : float = 0;
 var start_z : float = 0;
 
+var start_quaternion =  null;
+
+//var seeker = go.GetComponent("VRCapture");
+//seeker.StartPath(go.transform.position, destinationPoint);  
+
 
 var replay=false;
+
+var isPositionCapturing = false;
 
 public class ReplayStep {
     public var value : Vector3;
@@ -46,12 +53,18 @@ var inputList :List.<ReplayStep> = new List.<ReplayStep>();
         }
 
         function Update () {
-
+            var M = Input.GetKey("m");
          
             if(replay){
-    
-                if(currentIndex >= inputList.Count){
-                    Debug.Log("finished");
+                Debug.Log("M: "+M);
+                if(currentIndex >= inputList.Count || M){
+                    Debug.Log("finished recording: "+new Date());
+                   // EditorUtility.DisplayDialog("finished recording");
+                    VRCapture.VRCapture.Instance.StopCapture();
+                    //Application.Quit();
+                    inputList = new List.<ReplayStep>();
+                    currentIndex=0;
+                    replay = false;
                     return;
                 }
 
@@ -119,19 +132,33 @@ var inputList :List.<ReplayStep> = new List.<ReplayStep>();
 
                 controller.SimpleMove(currentResult.value_z);// transform.forward * currentSpeed_z);
                 controller.SimpleMove(currentResult.value_x); //left * currentSpeed_x);
+            	
 		
+                if(M && !replay){
+                    if(isPositionCapturing){
+                        Debug.Log("stop input capturing");
+                        Debug.Log("start recording: "+new Date());
+                        replay = true;
+                        isPositionCapturing=false;
+                        //todo reset position
+                        //transform.position = new Vector3();
+                        transform.position.x = start_x;
+                        transform.position.y = start_y;
+                        transform.position.z = start_z;
+                      
 		
-		
-                if(Input.GetKey("m")){
-                    replay = true;
-                    //todo reset position
-                    //transform.position = new Vector3();
-                    transform.position.x = start_x;
-                    transform.position.y = start_y;
-                    transform.position.z = start_z;
+                        transform.rotation = start_quaternion; //Quaternion.identity;
 
-		
-                    transform.rotation = Quaternion.identity;
+                        VRCapture.VRCapture.Instance.StartCapture();
+                    }else{
+                        Debug.Log("start input capturing");
+
+                        start_x = transform.position.x;
+                        start_y = transform.position.y;
+                        start_z = transform.position.z;
+                        start_quaternion = transform.rotation;
+                        isPositionCapturing=true;
+                    }
             
                 }
             }
@@ -145,8 +172,9 @@ var inputList :List.<ReplayStep> = new List.<ReplayStep>();
                 }
             }
 
-            inputList.Add(currentResult);
-
+            if(isPositionCapturing){
+                inputList.Add(currentResult);
+            }
 
 
         }

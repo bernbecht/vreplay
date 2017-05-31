@@ -98,28 +98,6 @@
     <Compile Include="Assets\VRCapture\Demo\Scripts\VRReplayDemoUI.cs" />
     <Compile Include="Assets\VRCapture\Demo\Scripts\VRTouchCameraManager.cs" />
     <Compile Include="Assets\VRCapture\Demo\Scripts\VideoCaptureDemoUI.cs" />
-    <Compile Include="Assets\VRCapture\Scripts\NewBehaviourScript.cs" />
-    <Compile Include="Assets\VRCapture\Scripts\VRCapture.cs" />
-    <Compile Include="Assets\VRCapture\Scripts\VRCaptureAudio.cs" />
-    <Compile Include="Assets\VRCapture\Scripts\VRCaptureScreenshot.cs" />
-    <Compile Include="Assets\VRCapture\Scripts\VRCaptureVideo.cs" />
-    <Compile Include="Assets\VRCapture\Scripts\VRInput\HTCViveInput.cs" />
-    <Compile Include="Assets\VRCapture\Scripts\VRInput\StandaloneInput.cs" />
-    <Compile Include="Assets\VRCapture\Scripts\VRInput\VRDevice.cs" />
-    <Compile Include="Assets\VRCapture\Scripts\VRInteration\UI\VRRadialMenu.cs" />
-    <Compile Include="Assets\VRCapture\Scripts\VRInteration\UI\VRTooltip.cs" />
-    <Compile Include="Assets\VRCapture\Scripts\VRInteration\UI\VRTooltipController.cs" />
-    <Compile Include="Assets\VRCapture\Scripts\VRInteration\Utils\Module\VRInputModule.cs" />
-    <Compile Include="Assets\VRCapture\Scripts\VRInteration\Utils\Module\VRUIGraphicRaycaster.cs" />
-    <Compile Include="Assets\VRCapture\Scripts\VRInteration\Utils\Module\VRUIPointer.cs" />
-    <Compile Include="Assets\VRCapture\Scripts\VRInteration\Utils\VRChangCameraPoint.cs" />
-    <Compile Include="Assets\VRCapture\Scripts\VRInteration\Utils\VRDrawUICircle.cs" />
-    <Compile Include="Assets\VRCapture\Scripts\VRInteration\Utils\VREventController.cs" />
-    <Compile Include="Assets\VRCapture\Scripts\VRInteration\Utils\VRTeleport.cs" />
-    <Compile Include="Assets\VRCapture\Scripts\VRInteration\Utils\VRUIController.cs" />
-    <Compile Include="Assets\VRCapture\Scripts\VRReplay.cs" />
-    <Compile Include="Assets\VRCapture\Scripts\VRReplayAuto.cs" />
-    <Compile Include="Assets\VRCapture\Scripts\VRUtils.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\MedievalTownExteriors\Readme.txt" />

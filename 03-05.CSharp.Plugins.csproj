@@ -113,6 +113,28 @@
     <Compile Include="Assets\Plugins\SteamVR\Scripts\SteamVR_Utils.cs" />
     <Compile Include="Assets\Plugins\openvr_api.cs" />
     <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
+    <Compile Include="Assets\Standard Assets\Scripts\NewBehaviourScript.cs" />
+    <Compile Include="Assets\Standard Assets\Scripts\VRCapture.cs" />
+    <Compile Include="Assets\Standard Assets\Scripts\VRCaptureAudio.cs" />
+    <Compile Include="Assets\Standard Assets\Scripts\VRCaptureScreenshot.cs" />
+    <Compile Include="Assets\Standard Assets\Scripts\VRCaptureVideo.cs" />
+    <Compile Include="Assets\Standard Assets\Scripts\VRInput\HTCViveInput.cs" />
+    <Compile Include="Assets\Standard Assets\Scripts\VRInput\StandaloneInput.cs" />
+    <Compile Include="Assets\Standard Assets\Scripts\VRInput\VRDevice.cs" />
+    <Compile Include="Assets\Standard Assets\Scripts\VRInteration\UI\VRRadialMenu.cs" />
+    <Compile Include="Assets\Standard Assets\Scripts\VRInteration\UI\VRTooltip.cs" />
+    <Compile Include="Assets\Standard Assets\Scripts\VRInteration\UI\VRTooltipController.cs" />
+    <Compile Include="Assets\Standard Assets\Scripts\VRInteration\Utils\Module\VRInputModule.cs" />
+    <Compile Include="Assets\Standard Assets\Scripts\VRInteration\Utils\Module\VRUIGraphicRaycaster.cs" />
+    <Compile Include="Assets\Standard Assets\Scripts\VRInteration\Utils\Module\VRUIPointer.cs" />
+    <Compile Include="Assets\Standard Assets\Scripts\VRInteration\Utils\VRChangCameraPoint.cs" />
+    <Compile Include="Assets\Standard Assets\Scripts\VRInteration\Utils\VRDrawUICircle.cs" />
+    <Compile Include="Assets\Standard Assets\Scripts\VRInteration\Utils\VREventController.cs" />
+    <Compile Include="Assets\Standard Assets\Scripts\VRInteration\Utils\VRTeleport.cs" />
+    <Compile Include="Assets\Standard Assets\Scripts\VRInteration\Utils\VRUIController.cs" />
+    <Compile Include="Assets\Standard Assets\Scripts\VRReplay.cs" />
+    <Compile Include="Assets\Standard Assets\Scripts\VRReplayAuto.cs" />
+    <Compile Include="Assets\Standard Assets\Scripts\VRUtils.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\MedievalTownExteriors\Readme.txt" />
