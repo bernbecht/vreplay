@@ -27,6 +27,8 @@ var replay=false;
 
 var isPositionCapturing = false;
 
+var mkeydown =false;
+
 public class ReplayStep {
     public var value : Vector3;
     public var value_z : Vector3;
@@ -53,11 +55,20 @@ var inputList :List.<ReplayStep> = new List.<ReplayStep>();
         }
 
         function Update () {
-            var M = Input.GetKey("m");
+            var mk=Input.GetKey("m");
+            var M = false;
+            if(!mkeydown && mk){
+                M=true;
+            }
+            mkeydown = mk;
+
+           // var M = Input.GetKey("m");
+           // Debug.Log("M: "+M);
          
             if(replay){
                 Debug.Log("M: "+M);
-                if(currentIndex >= inputList.Count || M){
+                if(currentIndex >= inputList.Count || M){   // if there are no frames left, or m is presse to abort
+                                                            // then stop capturing and reset everything
                     Debug.Log("finished recording: "+new Date());
                    // EditorUtility.DisplayDialog("finished recording");
                     VRCapture.VRCapture.Instance.StopCapture();
@@ -68,6 +79,7 @@ var inputList :List.<ReplayStep> = new List.<ReplayStep>();
                     return;
                 }
 
+                // if there are still frames left, change the movement
                 if(inputList[currentIndex].isGrounded){
                     //controller.SimpleMove(inputList[currentIndex].value);
 
@@ -134,8 +146,11 @@ var inputList :List.<ReplayStep> = new List.<ReplayStep>();
                 controller.SimpleMove(currentResult.value_x); //left * currentSpeed_x);
             	
 		
-                if(M && !replay){
-                    if(isPositionCapturing){
+                if(M && !replay){   // if it is not replaying, but m is hit,
+
+                   
+                    if(isPositionCapturing){    // check if it is recording the positions
+                                                // if it is recording positions already, then start replying the keyframes and record them
                         Debug.Log("stop input capturing");
                         Debug.Log("start recording: "+new Date());
                         replay = true;
@@ -151,6 +166,7 @@ var inputList :List.<ReplayStep> = new List.<ReplayStep>();
 
                         VRCapture.VRCapture.Instance.StartCapture();
                     }else{
+                        // otherwise start recording of the position
                         Debug.Log("start input capturing");
 
                         start_x = transform.position.x;
