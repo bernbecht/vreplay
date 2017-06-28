@@ -2,15 +2,15 @@ Mono path[0] = 'C:/Users/Team 1/Documents/03-05/build_v5/vreplay_Data/Managed'
 Mono path[1] = 'C:/Users/Team 1/Documents/03-05/build_v5/vreplay_Data/Mono'
 Mono config path = 'C:/Users/Team 1/Documents/03-05/build_v5/vreplay_Data/Mono/etc'
 PlayerConnection initialized from C:/Users/Team 1/Documents/03-05/build_v5/vreplay_Data (debug = 0)
-PlayerConnection initialized network socket : 0.0.0.0 55348
-Multi-casting "[IP] 0.0.0.0 [Port] 55348 [Flags] 2 [Guid] 1729090931 [EditorId] 2048945104 [Version] 1048832 [Id] WindowsPlayer(DESKTOP-HHTMQMD) [Debug] 0" to [225.0.0.222:54997]...
-Started listening to [0.0.0.0:55348]
-PlayerConnection already initialized - listening to [0.0.0.0:55348]
-Player data archive not found at `C:/Users/Team 1/Documents/03-05/build_v5/vreplay_Data/data.unity3d`, using local filesystemInitialize engine version: 5.6.0f3 (497a0f351392)
+PlayerConnection initialized network socket : 0.0.0.0 55152
+Multi-casting "[IP] 141.7.33.55 [Port] 55152 [Flags] 2 [Guid] 1888883368 [EditorId] 4177074833 [Version] 1048832 [Id] WindowsPlayer(DESKTOP-HHTMQMD) [Debug] 0" to [225.0.0.222:54997]...
+Started listening to [0.0.0.0:55152]
+PlayerConnection already initialized - listening to [0.0.0.0:55152]
+Initialize engine version: 5.5.2f1 (3829d7f588f3)
 GfxDevice: creating device client; threaded=1
-VR: OpenVR Error! OpenVR failed initialization with error code VRInitError_Init_HmdNotFound: "Hmd Not Found (108)"!
+VR: OpenVR Error! OpenVR failed initialization with error code VRInitError_Init_HmdNotFoundPresenceFailed: "Hmd Not Found Presence Failed (126)"!
  
-(Filename: C:/buildslave/unity/build/Runtime/VR/OpenVR/OpenVR.cpp Line: 1028)
+(Filename: C:/buildslave/unity/build/Runtime/VR/OpenVR/OpenVR.cpp Line: 954)
 
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
@@ -33,524 +33,2933 @@ Platform assembly: C:\Users\Team 1\Documents\03-05\build_v5\vreplay_Data\Managed
 Loading C:\Users\Team 1\Documents\03-05\build_v5\vreplay_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: C:\Users\Team 1\Documents\03-05\build_v5\vreplay_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading C:\Users\Team 1\Documents\03-05\build_v5\vreplay_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Team 1\Documents\03-05\build_v5\vreplay_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\Team 1\Documents\03-05\build_v5\vreplay_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
 Platform assembly: C:\Users\Team 1\Documents\03-05\build_v5\vreplay_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
 Loading C:\Users\Team 1\Documents\03-05\build_v5\vreplay_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
 Platform assembly: C:\Users\Team 1\Documents\03-05\build_v5\vreplay_Data\Managed\UnityEngine.VR.dll (this message is harmless)
 Loading C:\Users\Team 1\Documents\03-05\build_v5\vreplay_Data\Managed\UnityEngine.VR.dll into Unity Child Domain
-- Completed reload, in  0.150 seconds
+- Completed reload, in  0.216 seconds
 Platform assembly: C:\Users\Team 1\Documents\03-05\build_v5\vreplay_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\Team 1\Documents\03-05\build_v5\vreplay_Data\Managed\System.dll (this message is harmless)
 <RI> Initializing input.
 <RI> Input initialized.
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initialized touch support.
-VR: OpenVR Error! OpenVR failed initialization with error code VRInitError_Init_HmdNotFound: "Hmd Not Found (108)"!
+VR: OpenVR Error! OpenVR failed initialization with error code VRInitError_Init_HmdNotFoundPresenceFailed: "Hmd Not Found Presence Failed (126)"!
  
-(Filename: C:/buildslave/unity/build/Runtime/VR/OpenVR/OpenVR.cpp Line: 1028)
+(Filename: C:/buildslave/unity/build/Runtime/VR/OpenVR/OpenVR.cpp Line: 954)
 
-VR: OpenVR Error! OpenVR failed initialization with error code VRInitError_Init_HmdNotFound: "Hmd Not Found (108)"!
+VR: OpenVR Error! OpenVR failed initialization with error code VRInitError_Init_HmdNotFoundPresenceFailed: "Hmd Not Found Presence Failed (126)"!
  
-(Filename: C:/buildslave/unity/build/Runtime/VR/OpenVR/OpenVR.cpp Line: 1028)
+(Filename: C:/buildslave/unity/build/Runtime/VR/OpenVR/OpenVR.cpp Line: 954)
 
-UnloadTime: 0.867085 ms
+UnloadTime: 0.924914 ms
 start
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-CharacterMovement:Start() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:49)
+CharacterMovement:Start() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:55)
  
-(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 49)
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 55)
 
 Platform assembly: C:\Users\Team 1\Documents\03-05\build_v5\vreplay_Data\Managed\Boo.Lang.dll (this message is harmless)
-Setting up 4 worker threads for Enlighten.
-  Thread -> id: ed8 -> priority: 1 
-  Thread -> id: 964 -> priority: 1 
-  Thread -> id: 112c -> priority: 1 
-  Thread -> id: 15cc -> priority: 1 
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 2224 -> priority: 1 
+  Thread -> id: 2a78 -> priority: 1 
 start input capturing
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:170)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:191)
  
-(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 170)
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 191)
 
 stop input capturing
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:154)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:176)
  
-(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 154)
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 176)
 
 start recording: 1/1/0001 12:00:00 AM
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:155)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:177)
  
-(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 155)
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 177)
+
+Fallback handler could not load library C:/Users/Team 1/Documents/03-05/build_v5/vreplay_Data/Mono/VRCaptureLib
+Fallback handler could not load library C:/Users/Team 1/Documents/03-05/build_v5/vreplay_Data/Mono/.\VRCaptureLib
+Fallback handler could not load library C:/Users/Team 1/Documents/03-05/build_v5/vreplay_Data/Mono/VRCaptureLib
+Fallback handler could not load library C:/Users/Team 1/Documents/03-05/build_v5/vreplay_Data/Mono/libVRCaptureLib
+Fallback handler could not load library C:/Users/Team 1/Documents/03-05/build_v5/vreplay_Data/Mono/.\libVRCaptureLib
+Fallback handler could not load library C:/Users/Team 1/Documents/03-05/build_v5/vreplay_Data/Mono/libVRCaptureLib
+Fallback handler could not load library C:/Users/Team 1/Documents/03-05/build_v5/vreplay_Data/Mono/VRCaptureLib
+Fallback handler could not load library C:/Users/Team 1/Documents/03-05/build_v5/vreplay_Data/Mono/.\VRCaptureLib
+Fallback handler could not load library C:/Users/Team 1/Documents/03-05/build_v5/vreplay_Data/Mono/VRCaptureLib
+Fallback handler could not load library C:/Users/Team 1/Documents/03-05/build_v5/vreplay_Data/Mono/libVRCaptureLib
+Fallback handler could not load library C:/Users/Team 1/Documents/03-05/build_v5/vreplay_Data/Mono/.\libVRCaptureLib
+Fallback handler could not load library C:/Users/Team 1/Documents/03-05/build_v5/vreplay_Data/Mono/libVRCaptureLib
+DllNotFoundException: VRCaptureLib
+  at (wrapper managed-to-native) VRCapture.VRCaptureVideo:LibVideoCaptureAPI_Get (int,int,int,string,string)
+  at VRCapture.VRCaptureVideo.StartCapture () [0x00238] in C:\Users\Team 1\Documents\03-05\Assets\Standard Assets\Scripts\VRCaptureVideo.cs:680 
+  at VRCapture.VRCapture.StartCapture () [0x00167] in C:\Users\Team 1\Documents\03-05\Assets\Standard Assets\Scripts\VRCapture.cs:264 
+  at CharacterMovement.Update () [0x00638] in C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:188 
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/Standard Assets/Scripts/VRCaptureVideo.cs Line: 680)
 
 M: False
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:69)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
  
-(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 69)
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
 
 M: False
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:69)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
  
-(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 69)
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
 
 M: False
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:69)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
  
-(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 69)
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
 
 M: False
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:69)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
  
-(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 69)
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
 
 M: False
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:69)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
  
-(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 69)
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
 
 M: False
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:69)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
  
-(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 69)
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
 
 M: False
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:69)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
  
-(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 69)
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
 
 M: False
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:69)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
  
-(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 69)
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
 
 M: False
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:69)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
  
-(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 69)
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
 
 M: False
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:69)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
  
-(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 69)
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
 
 M: False
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:69)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
  
-(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 69)
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
 
 M: False
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:69)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
  
-(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 69)
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
 
 M: False
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:69)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
  
-(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 69)
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
 
 M: False
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:69)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
  
-(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 69)
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
 
 M: False
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:69)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
  
-(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 69)
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
 
 M: False
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:69)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
  
-(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 69)
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
 
 M: False
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:69)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
  
-(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 69)
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
 
 M: False
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:69)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
  
-(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 69)
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
 
 M: False
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:69)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
  
-(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 69)
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
 
 M: False
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:69)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
  
-(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 69)
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
 
 M: False
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:69)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
  
-(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 69)
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
 
 M: False
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:69)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
  
-(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 69)
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
 
 M: False
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:69)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
  
-(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 69)
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
 
 M: False
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:69)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
  
-(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 69)
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
 
 M: False
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:69)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
  
-(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 69)
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
 
 M: False
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:69)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
  
-(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 69)
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
 
 M: False
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:69)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
  
-(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 69)
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
 
 M: False
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:69)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
  
-(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 69)
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
 
 M: False
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:69)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
  
-(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 69)
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
 
 M: False
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:69)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
  
-(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 69)
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
 
 M: False
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:69)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
  
-(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 69)
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
 
 M: False
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:69)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
  
-(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 69)
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
 
 M: False
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:69)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
  
-(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 69)
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
 
 M: False
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:69)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
  
-(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 69)
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
 
 M: False
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:69)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
  
-(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 69)
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
 
 M: False
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:69)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
  
-(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 69)
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
 
 M: False
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:69)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
  
-(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 69)
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
 
 M: False
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:69)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
  
-(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 69)
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
 
 M: False
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:69)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
  
-(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 69)
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
 
 M: False
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:69)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
  
-(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 69)
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
 
 M: False
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:69)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
  
-(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 69)
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
 
 M: False
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:69)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
  
-(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 69)
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
 
 M: False
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:69)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
  
-(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 69)
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
 
 M: False
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:69)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
  
-(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 69)
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
 
 M: False
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:69)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
  
-(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 69)
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
 
 M: False
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:69)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
  
-(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 69)
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
 
 M: False
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:69)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
  
-(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 69)
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
 
-M: True
+M: False
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:69)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
  
-(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 69)
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
 
 finished recording: 1/1/0001 12:00:00 AM
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:72)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:78)
  
-(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 72)
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 78)
+
+VRCaptureVideo: capture not start yet!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+VRCapture.VRCaptureVideo:FinishCapture() (at C:\Users\Team 1\Documents\03-05\Assets\Standard Assets\Scripts\VRCaptureVideo.cs:705)
+VRCapture.VRCapture:StopCapture() (at C:\Users\Team 1\Documents\03-05\Assets\Standard Assets\Scripts\VRCapture.cs:302)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:80)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/Standard Assets/Scripts/VRCaptureVideo.cs Line: 705)
+
+start input capturing
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:191)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 191)
 
 exit
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-CharacterMovement:OnTriggerExit(Collider) (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:208)
+CharacterMovement:OnTriggerExit(Collider) (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:229)
  
-(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 208)
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 229)
+
+stop input capturing
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:176)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 176)
+
+start recording: 1/1/0001 12:00:00 AM
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:177)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 177)
+
+DllNotFoundException: VRCaptureLib
+  at (wrapper managed-to-native) VRCapture.VRCaptureVideo:LibVideoCaptureAPI_Get (int,int,int,string,string)
+  at VRCapture.VRCaptureVideo.StartCapture () [0x00238] in C:\Users\Team 1\Documents\03-05\Assets\Standard Assets\Scripts\VRCaptureVideo.cs:680 
+  at VRCapture.VRCapture.StartCapture () [0x00167] in C:\Users\Team 1\Documents\03-05\Assets\Standard Assets\Scripts\VRCapture.cs:264 
+  at CharacterMovement.Update () [0x00638] in C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:188 
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/Standard Assets/Scripts/VRCaptureVideo.cs Line: 680)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
 
 exit
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-CharacterMovement:OnTriggerExit(Collider) (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:208)
+CharacterMovement:OnTriggerExit(Collider) (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:229)
  
-(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 208)
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 229)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+finished recording: 1/1/0001 12:00:00 AM
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:78)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 78)
+
+VRCaptureVideo: capture not start yet!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+VRCapture.VRCaptureVideo:FinishCapture() (at C:\Users\Team 1\Documents\03-05\Assets\Standard Assets\Scripts\VRCaptureVideo.cs:705)
+VRCapture.VRCapture:StopCapture() (at C:\Users\Team 1\Documents\03-05\Assets\Standard Assets\Scripts\VRCapture.cs:302)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:80)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/Standard Assets/Scripts/VRCaptureVideo.cs Line: 705)
+
+start input capturing
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:191)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 191)
+
+stop input capturing
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:176)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 176)
+
+start recording: 1/1/0001 12:00:00 AM
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:177)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 177)
+
+DllNotFoundException: VRCaptureLib
+  at (wrapper managed-to-native) VRCapture.VRCaptureVideo:LibVideoCaptureAPI_Get (int,int,int,string,string)
+  at VRCapture.VRCaptureVideo.StartCapture () [0x00238] in C:\Users\Team 1\Documents\03-05\Assets\Standard Assets\Scripts\VRCaptureVideo.cs:680 
+  at VRCapture.VRCapture.StartCapture () [0x00167] in C:\Users\Team 1\Documents\03-05\Assets\Standard Assets\Scripts\VRCapture.cs:264 
+  at CharacterMovement.Update () [0x00638] in C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:188 
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/Standard Assets/Scripts/VRCaptureVideo.cs Line: 680)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+M: False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:75)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 75)
+
+finished recording: 1/1/0001 12:00:00 AM
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:78)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/MedievalTownExteriors/Scripts/CharacterMovement.js Line: 78)
+
+VRCaptureVideo: capture not start yet!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+VRCapture.VRCaptureVideo:FinishCapture() (at C:\Users\Team 1\Documents\03-05\Assets\Standard Assets\Scripts\VRCaptureVideo.cs:705)
+VRCapture.VRCapture:StopCapture() (at C:\Users\Team 1\Documents\03-05\Assets\Standard Assets\Scripts\VRCapture.cs:302)
+CharacterMovement:Update() (at C:\Users\Team 1\Documents\03-05\Assets\MedievalTownExteriors\Scripts\CharacterMovement.js:80)
+ 
+(Filename: C:/Users/Team 1/Documents/03-05/Assets/Standard Assets/Scripts/VRCaptureVideo.cs Line: 705)
 

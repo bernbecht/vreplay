@@ -1,8 +1,13 @@
 ﻿#pragma strict
 
+
 import System.Collections.Generic;
 
-var accelerationSpeed: float = 0.4; //player's movement speed
+var USE_POSITIONS = true;
+
+var USE_FRICITON = true;
+
+var accelerationSpeed: float = 100.4; //player's movement speed
 var gravity : float = 10; //amount of gravitational force applied to the player
 private var controller : CharacterController; //player's CharacterController component
 private var moveDirection : Vector3 = Vector3.zero;
@@ -10,8 +15,8 @@ private var moveDirection : Vector3 = Vector3.zero;
 private var currentSpeed_x : float = 0;
 private var currentSpeed_z : float = 0;
 
-var FRICTION : float = 0.95;
-var MAX_SPEED : float = 5;
+var FRICTION : float = 1;//0.95;
+var MAX_SPEED : float = 2.5;
 
 var start_x : float = 0;
 var start_y : float = 0;
@@ -31,8 +36,14 @@ var mkeydown =false;
 
 public class ReplayStep {
     public var value : Vector3;
+
+    public var value_y : Vector3;
     public var value_z : Vector3;
     public var value_x : Vector3;
+
+    public var value_y_f : float;
+    public var value_z_f : float;
+    public var value_x_f : float;
     public var isGrounded : boolean = true;
     public var valueAir : Vector3;
 }
@@ -41,10 +52,7 @@ public class ReplayStep {
 var inputList :List.<ReplayStep> = new List.<ReplayStep>();
         //var inputList = new Array();
         var currentIndex : int = 0;
-
-
-
-
+        var speed = MAX_SPEED;
         function Start () {
             Debug.Log("start");
             controller = transform.GetComponent(CharacterController);
@@ -83,8 +91,14 @@ var inputList :List.<ReplayStep> = new List.<ReplayStep>();
                 if(inputList[currentIndex].isGrounded){
                     //controller.SimpleMove(inputList[currentIndex].value);
 
-                    controller.SimpleMove(inputList[currentIndex].value_z);
-                    controller.SimpleMove(inputList[currentIndex].value_x);
+                    if(!USE_POSITIONS){
+                        controller.SimpleMove(inputList[currentIndex].value_z);
+                        controller.SimpleMove(inputList[currentIndex].value_x);
+                    }else{
+                        controller.transform.position.x = inputList[currentIndex].value_x_f;
+                        controller.transform.position.y = inputList[currentIndex].value_y_f;
+                        controller.transform.position.z = inputList[currentIndex].value_z_f;
+                    }
                 }else{
                     controller.Move(inputList[currentIndex].value);
                 }
@@ -110,23 +124,34 @@ var inputList :List.<ReplayStep> = new List.<ReplayStep>();
                 else if(Input.GetKey("w")) {
                     //currentResult.value = transform.forward * speed;
                     //controller.SimpleMove(currentResult.value);
-	
-                    currentSpeed_z +=accelerationSpeed;
+                    if(USE_FRICITON)
+                        currentSpeed_z +=accelerationSpeed;
+                    else
+                        controller.SimpleMove(transform.forward * speed);
                 }
                 if(Input.GetKey("s")) {
                     //currentResult.value = transform.forward * -speed;
                     //controller.SimpleMove(currentResult.value);
-                    currentSpeed_z -= accelerationSpeed;
+                    if(USE_FRICITON)
+                        currentSpeed_z -= accelerationSpeed;
+                    else
+                        controller.SimpleMove(transform.forward * -speed);
                 }
                 if(Input.GetKey("a")) {
                     //currentResult.value = left*speed;
                     //controller.SimpleMove(currentResult.value);
-                    currentSpeed_x += accelerationSpeed;
+                    if(USE_FRICITON)
+                        currentSpeed_x += accelerationSpeed;
+                    else
+                        controller.SimpleMove(left * speed);
                 }
                 if(Input.GetKey("d")) {
                     // currentResult.value = left*-speed;
                     //controller.SimpleMove(currentResult.value);
-                    currentSpeed_x -= accelerationSpeed;
+                    if(USE_FRICITON)
+                        currentSpeed_x -= accelerationSpeed;
+                    else
+                        controller.SimpleMove(left*-speed);
                 }
 		
 
@@ -139,12 +164,23 @@ var inputList :List.<ReplayStep> = new List.<ReplayStep>();
                 if(currentSpeed_x < -MAX_SPEED) currentSpeed_x=-MAX_SPEED;
                 if(currentSpeed_z < -MAX_SPEED) currentSpeed_z=-MAX_SPEED;
 
-                currentResult.value_z = transform.forward * currentSpeed_z;
-                currentResult.value_x = left * currentSpeed_x;
+           
+                if(!USE_POSITIONS && USE_FRICITON){
+                    currentResult.value_z = transform.forward * currentSpeed_z;
+                    currentResult.value_x = left * currentSpeed_x;
+                
+                    controller.SimpleMove(currentResult.value_z);// transform.forward * currentSpeed_z);
+                    controller.SimpleMove(currentResult.value_x); //left * currentSpeed_x);
+                }
 
-                controller.SimpleMove(currentResult.value_z);// transform.forward * currentSpeed_z);
-                controller.SimpleMove(currentResult.value_x); //left * currentSpeed_x);
-            	
+                if(USE_POSITIONS || !USE_FRICITON){
+                    currentResult.value_z_f = controller.transform.position.z;
+                    currentResult.value_y_f = controller.transform.position.y;
+                    currentResult.value_x_f = controller.transform.position.x;
+
+                    controller.SimpleMove(transform.forward * currentSpeed_z);// transform.forward * currentSpeed_z);
+                    controller.SimpleMove(left * currentSpeed_x); //left * currentSpeed_x);
+                }
 		
                 if(M && !replay){   // if it is not replaying, but m is hit,
 
@@ -160,8 +196,7 @@ var inputList :List.<ReplayStep> = new List.<ReplayStep>();
                         transform.position.x = start_x;
                         transform.position.y = start_y;
                         transform.position.z = start_z;
-                      
-		
+                      		
                         transform.rotation = start_quaternion; //Quaternion.identity;
 
                         VRCapture.VRCapture.Instance.StartCapture();
